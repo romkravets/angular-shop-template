@@ -1,0 +1,19 @@
+@mixin flex-center-horizontal {
+   display: flex;
+   justify-content: center;
+ }
+ 
+ @mixin flex-vertical {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ @mixin opacity-hidden {
+   opacity: 0;
+   visibility: hidden;
+ }
+ 
+ @mixin opacity-visible {
+   opacity: 1;
+   visibility: visible;
+ }

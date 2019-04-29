@@ -1,31 +1,5 @@
-$font-size-base: 14px;
-$base-font-color: rgb(80, 80, 80);
-$burger-size: 20px;
-$global-nav-height: 44px;
-$page-content-width: 960px;
-$link-color: rgb(102, 187, 255);
-$main-width: 100%;
-
-@mixin flex-center-horizontal {
-   display: flex;
-   justify-content: center;
- }
- 
- @mixin flex-vertical {
-   display: flex;
-   flex-direction: column;
- }
- 
- @mixin opacity-hidden {
-   opacity: 0;
-   visibility: hidden;
- }
- 
- @mixin opacity-visible {
-   opacity: 1;
-   visibility: visible;
- }
-
+@import '../../../styles/variables.scss';
+@import '../../../styles/mixins.scss';
 
 $transition-delay: 100ms;
 
@@ -34,7 +8,7 @@ $transition-delay: 100ms;
   position: fixed;
   width: $main-width;
   padding: 0 1rem;
-  z-index: 1;
+  z-index: 2;
   height: 70px;
   &__link {
     @include flex-center-horizontal;
@@ -94,7 +68,6 @@ $transition-delay: 100ms;
    z-index: 1;
 }
 
-
 .navbar__logo > img {
    width: 183%;
 }
@@ -146,7 +119,6 @@ $transition-delay: 100ms;
     top: 0;
     left: 0;
     padding: 0 34px;
-    //height: calc(51vh - #{$global-nav-height});
     height: auto;
     background-color: transparent;
     transform: scaleY(0);

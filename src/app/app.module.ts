@@ -5,12 +5,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/sections/header/header.component';
 import { FooterComponent } from './components/sections/footer/footer.component';
+import { ContactUsComponent } from './components/pages/contact-us/contact-us.component';
+import { ImprintComponent } from './components/pages/imprint/imprint.component';
+import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privacy-policy.component';
+import { JobsComponent } from './components/pages/jobs/jobs.component';
+import { MainComponent } from './components/pages/main/main.component';
+import { DeliveryComponent } from './components/sections/main-sections/delivery/delivery.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ContactUsComponent,
+    ImprintComponent,
+    PrivacyPolicyComponent,
+    JobsComponent,
+    MainComponent,
+    DeliveryComponent,
   ],
   imports: [
     BrowserModule,

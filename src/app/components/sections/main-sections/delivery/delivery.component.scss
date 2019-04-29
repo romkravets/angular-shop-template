@@ -49,12 +49,14 @@
    }
    &__central-image > img {
       z-index: 1;
-      position: relative;
+      position: absolute;
    }
    &__phone {
       width: 70%;
       right: 0;
-      transform: translate(7%, -40%);
+      transform: translate(7% 0%);
+      top: 98px;
+      left: 41px;
    }
    &__label {
       position: absolute;

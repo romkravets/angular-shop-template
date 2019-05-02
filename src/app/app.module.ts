@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { AlertModule } from 'ngx-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,8 @@ import { PrivacyPolicyComponent } from './components/pages/privacy-policy/privac
 import { JobsComponent } from './components/pages/jobs/jobs.component';
 import { MainComponent } from './components/pages/main/main.component';
 import { DeliveryComponent } from './components/sections/main-sections/delivery/delivery.component';
+import { ButtonComponent } from './components/sections/button/button.component';
+import { WorkComponent } from './components/sections/main-sections/work/work.component';
 
 @NgModule({
   declarations: [
@@ -23,10 +26,13 @@ import { DeliveryComponent } from './components/sections/main-sections/delivery/
     JobsComponent,
     MainComponent,
     DeliveryComponent,
+    ButtonComponent,
+    WorkComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AlertModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

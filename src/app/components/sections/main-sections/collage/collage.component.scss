@@ -1,0 +1,48 @@
+.section__content-wrapper {
+   width: 80%;
+}
+
+
+.divider {
+   height: 30px;
+   display: flex;
+   align-items: center;
+}
+
+.divider_dark > .divider__line {
+   background-color: #15484c;
+}
+
+.divider__line {
+   height: 6px;
+   width: 102px;
+}
+
+.text-bold {
+   font-weight: bold;
+   margin: 16px -1px;
+}
+
+.action-block {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   right: 0;
+   width: 80%;
+   align-items: center;
+}
+
+.section__image {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 2;
+   position: relative;
+}
+
+.section__image > img {
+   width: 100%;
+   display: block;
+}
+

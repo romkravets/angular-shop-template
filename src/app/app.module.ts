@@ -14,6 +14,7 @@ import { MainComponent } from './components/pages/main/main.component';
 import { DeliveryComponent } from './components/sections/main-sections/delivery/delivery.component';
 import { ButtonComponent } from './components/sections/button/button.component';
 import { WorkComponent } from './components/sections/main-sections/work/work.component';
+import { CollageComponent } from './components/sections/main-sections/collage/collage.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { WorkComponent } from './components/sections/main-sections/work/work.com
     DeliveryComponent,
     ButtonComponent,
     WorkComponent,
+    CollageComponent,
   ],
   imports: [
     BrowserModule,

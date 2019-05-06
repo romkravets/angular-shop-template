@@ -36,6 +36,10 @@
   font-size: 5rem;
   line-height: 5rem;
  }
+
+ h2 {
+  font-size: 4.125rem;
+}
  ul {
    list-style: none;
    padding: 0;
@@ -99,5 +103,61 @@
   flex-basis: 50%;
   width: 50%;
   max-width: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.row_align-center {
+  align-items: center;
+}
+
+.row_column {
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  word-break: break-word;
+}
+
+.row_center {
+  justify-content: center;
+}
+
+.row_end {
+  justify-content: flex-end;
+}
+
+.divider {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+
+.divider_secondary > .divider__line {
+  background-color: #a8d2c8;
+}
+
+.divider__line {
+  height: 6px;
+  width: 102px;
+}
+
+
+.text-left {
+  text-align: left;
+}
+
+.contact-us-form {
+  width: 100%;
+}
+
+input, select {
+  background-color: white;
 }
 
